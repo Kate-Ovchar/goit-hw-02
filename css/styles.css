@@ -14,14 +14,13 @@ ul, ul {
 }
 
  body {
-     font-family: "Roboto", "Raleway", sans-serif;
-     color: #2E2F42;
+     font-family: "Roboto", sans-serif;
+     color: #434455;
      background-color: #ffffff;
      line-height: 1.5;
      font-size: 16px;
      font-weight: 400;
      letter-spacing: 0.02em;
-     font-style: normal;
 }
 
  p {
@@ -32,35 +31,158 @@ ul, ul {
     color: #434455;
 }
 
+
  /*------------- HEADER STYLES------------- */
- .page-nav {
+ .link-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+ 
+.link-item {
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.link-item:hover,
+.link-item:focus {
+    color: #404bbf;
+}  
+
+.page-address {
+    font-style: normal;
+}
+
+ .link-address {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
- .page-nav:hover,
- .page-nav:active {
-    color: #404BBF;
-}
-
- .page-address {
-    font-style: normal;
     font-weight: 400;
     color: #434455;
 }
-.page-address:hover {
+.link-address:hover,
+.link-address:focus {
     color: #404BBF;
 }
 
-/*------------- PORTFOLIO STYLES------------- */
-.link-portfolio {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+/*------------- HERO STYLES------------- */
+.page-hero {
+    background-color: #2e2f42;
 }
-.link-portfolio:hover,
-.link-portfolio:active {color: #404BBF;}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.order-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+/*------------- ADVANTAGES STYLES------------- */
+.title-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/*------------- TEAM STYLES------------- */
+.page-team {
+    background-color: #F4F4FD;
+}
+
+.page-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-team {
+    color: #2e2f42;
+    background-color: #FFFFFF;
+}
+
+.title-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text-team {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/*------------- PORTFOLIO STYLES------------- */
+
+.page-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
  
+.text-portfolio {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*------------- FOOTER STYLES------------- */
+
+.basement {
+    background-color: #2e2f42;
+}
+
+.logo-part-basement {
+    color: #f4f4fd;
+}
+
+.text-basement {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
