@@ -1,1 +1,66 @@
-body {font-family: }
+
+/*------------- COMMON STYLES------------- */
+ul, ul {
+    list-style-type: none;
+} 
+
+ a   {
+    text-decoration: none;
+    color: inherit;
+}
+
+ button {
+    cursor: pointer;
+}
+
+ body {
+     font-family: "Roboto", "Raleway", sans-serif;
+     color: #2E2F42;
+     background-color: #ffffff;
+     line-height: 1.5;
+     font-size: 16px;
+     font-weight: 400;
+     letter-spacing: 0.02em;
+     font-style: normal;
+}
+
+ p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+ /*------------- HEADER STYLES------------- */
+ .page-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+ .page-nav:hover,
+ .page-nav:active {
+    color: #404BBF;
+}
+
+ .page-address {
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+}
+.page-address:hover {
+    color: #404BBF;
+}
+
+/*------------- PORTFOLIO STYLES------------- */
+.link-portfolio {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.link-portfolio:hover,
+.link-portfolio:active {color: #404BBF;}
+ 
